@@ -1,0 +1,9 @@
+/target/
+/.mvn/
+/**/target/
+/*.iml
+/.idea/
+/.vscode/
+/springboot-tasks-api.zip
+*.log
+*.class
