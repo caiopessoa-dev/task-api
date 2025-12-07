@@ -1,11 +1,11 @@
-# SpringBoot Tasks API (Checkpoint 1)
+# SpringBoot Tasks API (Checkpoint Final)
 
-Projeto inicial para checkpoint 1 — API REST de gerenciamento de tarefas (in-memory).
+Projeto para checkpoint final — API REST de gerenciamento de tarefas (in-disk).
 
 ## O que existe neste estágio
 - Estrutura Maven completa (`pom.xml`)
 - Endpoints REST básicos para `Task` (CRUD)
-- Persistência em memória via `InMemoryTaskRepository` (HashMap)
+- Persistência em arquivo via `FileTaskRepository` (ObjectMapper)
 - Documentação OpenAPI (Swagger UI) disponível em `/swagger-ui.html` após rodar
 - Arquivos básicos (`.gitignore`, `README.md`, `application.properties`)
 
@@ -29,6 +29,4 @@ mvn spring-boot:run
 - `POST /api/tasks` — criar tarefa
 - `PUT /api/tasks/{id}` — atualizar tarefa
 - `DELETE /api/tasks/{id}` — deletar tarefa
-
-Este é um projeto em estágio inicial, adequado para apresentação do Checkpoint 1 (mostrar repositório, estrutura de pacotes e endpoints mínimos funcionando).
 
